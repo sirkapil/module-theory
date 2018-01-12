@@ -1,0 +1,42 @@
+\chapter{Introduction to Modules}
+\section{\texttt{Defination of Module}}
+\subsection{Left Module:}\label{sec:left-module}\index{Left Module}
+ Let $ R $ be a ring with identity and $ M $ be an abelian group with addition. We say $ M $ is a left $R-$module if there exists a mapping\footnote{often called as scaler multiplication.}
+\begin{equation*}
+R \times M \rightarrow M
+\end{equation*}	
+defined by 
+\begin{equation*}
+(a \ , \ x) \rightarrow ax  
+\end{equation*}
+for each $a$ $\in$ $R$ and $x$ $\in$ $M$ satisfying following properties :
+\marginnote{$\forall$ $ a\ , \ b \in R$ and $x \ , y \ \in M$  }
+\begin{eqnarray*}
+(a+b) x &=& ax + bx \\ a(x+y) &=& ax + ay \\ (ab)x &=& a(bx) \\ 1x &=& x
+\end{eqnarray*}
+and denoted by $_{R}M$
+\subsection{Right Module:}\label{sec:right-module}\index{Right Module}
+Let $ R $ be a ring with identity and $ M $ be an abelian group with addition. We say $ M $ is a right $R-$module if there exists a mapping
+\begin{equation*}
+M \times R \rightarrow M
+\end{equation*}	
+defined by 
+\begin{equation*}
+(x \ ,\ a) \rightarrow xa  
+\end{equation*}
+for each $a$ $\in$ $R$ and $x$ $\in$ $M$ satisfying following properties\marginnote{$\forall$ $ a\ , \ b \in R$ and $x \ , y \ \in M$  } :
+\begin{eqnarray*}
+x (a+b)  &=& xa + xb \\ (x+y) a &=& xa + ya \\ x (ab) &=& (xa)b \\ x1 &=& x
+\end{eqnarray*}
+and denoted by $M_{R}$
+
+\subsection{Examples :}
+\begin{enumerate}
+\item Let $V$ be a vector space over a field $F$ then $V$ is a left as well as right $F-$Module.\newline \bigskip
+\item Let $G$ be any abelian group under addition , then $G$ is a $\mathbb{Z-}$Module where $\mathbb{Z}$ is set of integers.\newline \bigskip
+\item Let $R$ be ring and $M= R[x]$ \marginnote{Suppose ring $R$ is a field then $R-$Module $R[x]$ is a vector space over field $R$.} where $R[x]$ is a group of all polynomials with coefficents in $R$ then $M$ is a left as well as a right $R-$Module with scaler multiplication being usual multiplication.\newline \bigskip
+\item Let $M$ be collection of all $m \times n $ matrices over ring $R$ , then $M$ is left $R-$Module where scaler multiplication being usual multiplication of a scaler to a matrix like \newline \bigskip
+	\begin{eqnarray*}
+\mathtt{A} &=& {[\mathtt{a_{ij}}] \; \vert \; i = 1,2,3,\cdots, m  \; j=1,2,3,\cdots, n} \\ c\times \mathtt{A} &=& {[c \times \mathtt{a_{ij}}] \; \vert \; i = 1,2,3,\cdots m  \; j=1,2,3,\cdots n }
+	\end{eqnarray*}
+\end{enumerate}
