@@ -10,21 +10,32 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{lipsum}
+\usepackage{hyperref}
 %%
 % For nicely typeset tabular material
 \usepackage{booktabs}
-
+\setcounter{section}{1}
+\setcounter{chapter}{1}
+\renewcommand{\theequation}{\thesection.\arabic{equation}}
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{(\alph{subsection})}
 %%
 \renewcommand\qedsymbol{$\blacksquare$}
 \theoremstyle{definition}
 \newtheorem{definition}{Definition}[section]
 
-\theoremstyle{defination}
-\newtheorem{remark}{Remark:}
-
-\newtheorem{theorem}{Theorem}[section]
-\newtheorem{corollary}{Corollary}[theorem]
-\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{theorem}
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lemma}[thm]{Lemma}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{defn}[thm]{Definition}
+\newtheorem{examp}[thm]{Example}
+\newtheorem{conj}[thm]{Conjecture}
+\newtheorem{remark}[thm]{Remark:}
+\numberwithin{equation}{chapter}
+\DeclareRobustCommand{\eqref}[1]{\eqrefaux#1\eqrefaux}
+\def\eqrefaux eq#1\eqrefaux{\textup{(#1)}}
 % For graphics / images
 \usepackage{graphicx}
 \setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
@@ -88,8 +99,16 @@
 \newcommand{\blankpage}{\newpage\hbox{}\thispagestyle{empty}\newpage}
 
 \usepackage{units}
+\newcommand{\filler}[1][10]%
+{   \foreach \x in {1,...,#1}
+    {   test
+    }
+}
 
-% Typesets the font size, leading, and measure in the form of 10/12x26 pc.
+\def\mathnote#1{%
+  \tag*{\rlap{\hspace\marginparsep\smash{\parbox[t]{\marginparwidth}{%
+  \footnotesize#1}}}}
+}% Typesets the font size, leading, and measure in the form of 10/12x26 pc.
 \newcommand{\measure}[3]{#1/#2$\times$\unit[#3]{pc}}
 
 % Macros for typesetting the documentation
@@ -205,15 +224,17 @@
 \newpage
 
 \chapter*{Introduction}
-
-This sample book discusses the course \texttt{Module Theory} of
-\texttt{pure mathematics} being taught to \doccls{post-graduate} students
+\section{Preface}
+This sample book discusses the course \texttt{Module Theory} of \texttt{pure mathematics} being taught to \doccls{post-graduate} students
 in \doccls{University of Delhi.}
+\section{Reporting Problems}
 %%
 % Start the main matter (normal chapters)
 \mainmatter
 \include{./Chapters/chapter01}
 
 \backmatter
+% Encoding: UTF-8
+
 % bibliography, glossary and index would go here.
-\end{document}
+\end{document} 

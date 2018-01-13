@@ -1,6 +1,8 @@
-\contentsline {chapter}{Introduction to Modules}{9}{chapter*.3}
-\contentsline {section}{\texttt {Defination of Module}}{9}{section*.4}
-\contentsline {subsection}{Left Module:}{9}{subsection*.5}
-\contentsline {subsection}{Right Module:}{9}{subsection*.6}
-\contentsline {subsection}{Examples :}{10}{subsection*.7}
+\contentsline {section}{Preface}{7}{section*.3}
+\contentsline {section}{Reporting Problems}{7}{section*.4}
+\contentsline {chapter}{Introduction to Modules}{9}{chapter*.5}
+\contentsline {section}{\texttt {Defination of Module}}{9}{section*.6}
+\contentsline {subsection}{Left Module:}{9}{subsection*.7}
+\contentsline {subsection}{Right Module:}{9}{subsection*.8}
+\contentsline {subsection}{Examples :}{10}{subsection*.9}
 \contentsfinish 
