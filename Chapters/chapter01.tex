@@ -125,9 +125,10 @@ $\forall \ a \in R$ and $\forall \ x+I \in \bigslant{R}{I}$}
 	\begin{description}
 		\item[(i)]
 As $0_m$ is the additive identity of $M$. so, $0_m = 0_m + 0_m$\newline
-Consider \marginnote{$ \because r\ 0_m \in M$\newline so, $r\ 0_m = r\ 0_m + 0_m$}
+Consider \marginnote{$ \because \ (r\ ,\ 0_m)\rightarrowtail r\ 0_m \in M$\newline so, $r\ 0_m = r\ 0_m + 0_m$}
  $ r(0_m + 0_m) = r\ 0_m  = r\ 0_m +0_m $\newline
-but, $r(0_m + 0_m) = (r\ 0_m) +(r\ 0_m)$ \marginnote{$ \because \ M$ is a left $R$-module.\newline (using distribuitive property)}\newline
+but, $r(0_m + 0_m) = (r\ 0_m) +(r\ 0_m)$ \marginnote{
+	$ \because \ M$ is a left $R$-module.\newline (using distribuitive property)}\newline
 so, we have \begin{equation*}
 r\ 0_m +r\ 0_m = r\ 0_m + 0_m
 \end{equation*}
@@ -137,6 +138,34 @@ as ($M,+$) is an abelian group so left and right cancellation law holds.
 \end{eqnarray*}
 a similiar argument can be used to prove $0_m = 0_r\ x$.
 \item[(ii)]
-
+as $M$ is a left $R$-module so $(r \ , x )\ \rightarrowtail rx \in M$ \newline
+Now, Consider $(-r)x + rx$
+\begin{eqnarray*}
+\text{using distribuitive law} \\ (-r)x + rx &=& (-r + r)x \\  &=& 0_r \ x \\ &=& 0_m
+\end{eqnarray*}
+i.e. $(-r)x$ is additive inverse of  $(rx)$ but additive inverse of $(rx)$ is $-rx$ and it is unique for an abelian group($M$ here)
+\begin{equation*}
+\therefore \ (-r)x = -rx
+\end{equation*}
+a similar argument can be used to prove that $r(-x)  = -r x$.
 \end{description}
 \end{proof}
+\bigskip
+\begin{definition}[Ring Homomorphism]
+	Let $R$ and $S$ be two rings with identities $1_r \ , 1_s$ respectively then a map(say $f$)
+	\begin{equation*}
+	f : R \rightarrow S
+	\end{equation*}
+	is said to be a ring homomorphism (often said ring homo) or ring linear map if for every $a \ ,\ b \in R$ following properties holds
+	\begin{description}
+		\item[(i)]\begin{equation*}
+		(a+b)f = (a)f +(b)f
+		\end{equation*}
+		\item[(ii)]\begin{equation*}
+		(ab)f = (a)f \ (b)f
+		\end{equation*}
+		\item[(iii)]\begin{equation*}
+		(1_r)f = 1_s
+		\end{equation*}
+	\end{description}
+\end{definition}

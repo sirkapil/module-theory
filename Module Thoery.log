@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.20)  13 JAN 2018 11:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.20)  13 JAN 2018 13:06
 entering extended mode
 **"./Module Thoery.tex"
 ("Module Thoery.tex"
@@ -342,8 +342,9 @@ LaTeX Info: Redefining \cite on input line 694.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\bibentry.sty"
 Package: bibentry 2007/10/30 1.5 (PWD)
 )
-No file "Module Thoery".bbl.
+("Module Thoery.bbl")
 \c@@tufte@num@bibkeys=\count110
+
 ("C:\Program Files\MiKTeX 2.9\tex\latex\sauerj\optparams.sty"
 Package: optparams 2004/08/14 v0.9 multiple optional parameters in macros
 )
@@ -582,7 +583,7 @@ LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
-Package: amsthm 2015/03/04 v2.20.2
+Package: amsthm 2017/10/31 v2.20.4
 \thm@style=\toks24
 \thm@bodyfont=\toks25
 \thm@headfont=\toks26
@@ -985,7 +986,10 @@ LaTeX Warning: Marginpar on page 12 moved.
 
 LaTeX Warning: Marginpar on page 12 moved.
 
-) [12]
+[12]) [13] [14
+
+
+]
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
@@ -1001,9 +1005,9 @@ Package rerunfilecheck Info: File `"Module Thoery".out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 219.
  ) 
 Here is how much of TeX's memory you used:
- 14204 strings out of 493312
- 199019 string characters out of 3138898
- 398664 words of memory out of 3000000
+ 14209 strings out of 493312
+ 199129 string characters out of 3138898
+ 399684 words of memory out of 3000000
  17376 multiletter control sequences out of 15000+200000
  103199 words of font info for 165 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1021,9 +1025,9 @@ ymbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on "Module Thoery.pdf" (12 pages, 137129 bytes).
+Output written on "Module Thoery.pdf" (14 pages, 141459 bytes).
 PDF statistics:
- 158 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
+ 171 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 500000)
  2577 words of extra memory for PDF output out of 10000 (max. 10000000)
 
