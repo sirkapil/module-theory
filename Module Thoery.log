@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.20)  13 JAN 2018 13:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.20)  13 JAN 2018 16:00
 entering extended mode
 **"./Module Thoery.tex"
 ("Module Thoery.tex"
@@ -314,7 +314,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
@@ -986,7 +986,17 @@ LaTeX Warning: Marginpar on page 12 moved.
 
 LaTeX Warning: Marginpar on page 12 moved.
 
-[12]) [13] [14
+
+LaTeX Warning: Marginpar on page 12 moved.
+
+
+LaTeX Warning: Marginpar on page 12 moved.
+
+[12]
+
+LaTeX Warning: Marginpar on page 13 moved.
+
+) [13] [14
 
 
 ]
@@ -1005,13 +1015,13 @@ Package rerunfilecheck Info: File `"Module Thoery".out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 219.
  ) 
 Here is how much of TeX's memory you used:
- 14209 strings out of 493312
- 199129 string characters out of 3138898
- 399684 words of memory out of 3000000
- 17376 multiletter control sequences out of 15000+200000
- 103199 words of font info for 165 fonts, out of 3000000 for 9000
+ 14215 strings out of 493312
+ 199191 string characters out of 3138898
+ 401069 words of memory out of 3000000
+ 17378 multiletter control sequences out of 15000+200000
+ 104298 words of font info for 167 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,16n,45p,397b,511s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,16n,45p,407b,511s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
@@ -1025,9 +1035,9 @@ ymbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on "Module Thoery.pdf" (14 pages, 141459 bytes).
+Output written on "Module Thoery.pdf" (14 pages, 143794 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 38 named destinations out of 1000 (max. 500000)
+ 173 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
  2577 words of extra memory for PDF output out of 10000 (max. 10000000)
 

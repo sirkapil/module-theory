@@ -5,9 +5,9 @@
 \begin{equation*}
 R \times M \rightarrow M
 \end{equation*}	
-defined by 
+defined by
 \begin{equation*}
-(a \ , \ x) \rightarrow ax  
+(a \ , \ x) \rightarrow ax
 \end{equation*}
 for each $a$ $\in$ $R$ and $x$ $\in$ $M$ satisfying following properties :
 \marginnote{$\forall$ $ a\ , \ b \in R$ and $x \ , y \ \in M$  }
@@ -20,9 +20,9 @@ Let $ R $ be a ring with identity and $ M $ be an abelian group with addition. W
 \begin{equation*}
 M \times R \rightarrow M
 \end{equation*}	
-defined by 
+defined by
 \begin{equation*}
-(x \ ,\ a) \rightarrow xa  
+(x \ ,\ a) \rightarrow xa
 \end{equation*}
 for each $a$ $\in$ $R$ and $x$ $\in$ $M$ satisfying following properties\marginnote{$\forall$ $ a\ , \ b \in R$ and $x \ , y \ \in M$  } :
 \begin{eqnarray}
@@ -48,9 +48,9 @@ In particular, if $M$ is a set of $1 \times n$ matrices over $R$ or $M = R^n$(se
 \begin{equation*}
 R \times M \rightarrow M
 \end{equation*}	
-defined by 
+defined by
 \begin{equation*}
-(a \ , \ x) \rightarrow ax  
+(a \ , \ x) \rightarrow ax
 \end{equation*}
 for each $a$ $\in$ $R$ and $x$ $\in$ $M$ satisfying following properties :
 \marginnote{$\forall$ $ a\ , \ b \in R$ and $x \ , y \ \in M$  }
@@ -62,13 +62,13 @@ Now, Define an another mapping
  \begin{equation*}
  M \times R \rightarrow M
  \end{equation*}	
- defined by 
+ defined by
  \begin{equation*}
- (x \ ,\ a) \rightarrow x*a \ = \ ax  
+ (x \ ,\ a) \rightarrow x*a \ = \ ax
  \end{equation*}
 To check $M$ is a right $R-$Module , we need to verify properties number \eqref{5}-\eqref{8}
  \begin{enumerate}
- 	\item 
+ 	\item
  	\begin{align*}
  		x*(a+b) &= (a+b)x \\ &= ax + bx \\ &= (x*a) + (x*b)
  	\end{align*}
@@ -77,7 +77,7 @@ To check $M$ is a right $R-$Module , we need to verify properties number \eqref{
  	      \end{eqnarray*}
        \item \begin{eqnarray*}
        x*(ab) &=& (ab)x \\ &=& (ba)x \\ &=& b(ax) \\ &=& (ax)*b
-       \end{eqnarray*} 
+       \end{eqnarray*}
    \item \begin{eqnarray*}
    x*1 &= 1x \\  &= x
    \end{eqnarray*}
@@ -87,22 +87,22 @@ Similarly, Converse statement can be verified.
 \end{proof} \bigskip
 \begin{remark}
 	Let $S$ be a subring of ring $R$ then $_{S}M$ exists \marginnote{by existance means $M$ is a valid left module over mentioned ring or subring. i.e. satisfying those four properties.}  only if $_{R}M$ exists.
-\end{remark} \bigskip 
+\end{remark} \bigskip
 \begin{remark}
-	Same Abelian group\marginnote{For Instance,  The field $\mathbb{R}$ is $\mathbb{R}-$module,$\mathbb{Q}-$module and $\mathbb{Z}-$module.} can have the structure of a Module for a number of different rings. 
-\end{remark} \bigskip 
+	Same Abelian group\marginnote{For Instance,  The field $\mathbb{R}$ is $\mathbb{R}-$module,$\mathbb{Q}-$module and $\mathbb{Z}-$module.} can have the structure of a Module for a number of different rings.
+\end{remark} \bigskip
 \begin{remark}
-Let $I$ be left ideal of $R$ then quotient ring $\bigslant{R}{I}$ is a left $R$-module.\marginnote{Here scaler multiplication is \newline \begin{equation*} 
-	R \times \bigslant{R}{I} \rightarrowtail \bigslant{R}{I} 
+Let $I$ be left ideal of $R$ then quotient ring $\bigslant{R}{I}$ is a left $R$-module.\marginnote{Here scaler multiplication is \newline \begin{equation*}
+	R \times \bigslant{R}{I} \rightarrowtail \bigslant{R}{I}
 	\end{equation*}
-defined as 
+defined as
 \begin{equation*}
 (a \ , \ x+I) \rightarrowtail ax+I
 \end{equation*}
 
-$\forall \ a \in R$ and $\forall \ x+I \in \bigslant{R}{I}$} 
+$\forall \ a \in R$ and $\forall \ x+I \in \bigslant{R}{I}$}
 
-\end{remark} 
+\end{remark}
 \begin{proof}[verification:]
 	`left to reader'\newline \bigskip
 	\textbf{Hint:} you need to verify those four properties: \eqref{1}-\eqref{4}
@@ -117,7 +117,7 @@ $\forall \ a \in R$ and $\forall \ x+I \in \bigslant{R}{I}$}
 	\end{equation*}
 \item (ii)
 	\begin{equation*}
-	r(-x) =  (-r)x = -rx 
+	r(-x) =  (-r)x = -rx
 	\end{equation*}
 \end{description}
 \end{theorem}
@@ -152,20 +152,35 @@ a similar argument can be used to prove that $r(-x)  = -r x$.
 \end{proof}
 \bigskip
 \begin{definition}[Ring Homomorphism]
-	Let $R$ and $S$ be two rings with identities $1_r \ , 1_s$ respectively then a map(say $f$)
+	Let\marginnote{often called as ring homo} $R$ and $S$ be two rings with identities $1_r \ , 1_s$ respectively then a map(say $f$)
 	\begin{equation*}
 	f : R \rightarrow S
 	\end{equation*}
-	is said to be a ring homomorphism (often said ring homo) or ring linear map if for every $a \ ,\ b \in R$ following properties holds
+	is said to be a ring homomorphism or ring linear map if for every $a \ ,\ b \in R$ following properties holds\marginnote{if $R$ = $S$ then we call ring homo as ring endomorphism. For instance , let $f$ be ring homo from $R$ to $R$ . we say $f$ is endomorphism of $R$ and denoted by $End \ R$}
 	\begin{description}
-		\item[(i)]\begin{equation*}
+		\item[(i) \centering{Preserves Addition}]\begin{equation*}
 		(a+b)f = (a)f +(b)f
 		\end{equation*}
-		\item[(ii)]\begin{equation*}
-		(ab)f = (a)f \ (b)f
+		\item[(ii) \centering{Preservers Multiplication} ]\begin{equation*}
+		(ab)f = (a)f . (b)f
 		\end{equation*}
-		\item[(iii)]\begin{equation*}
+		\item[(iii) \centering{ Maps identity to identity}]\begin{equation*}
 		(1_r)f = 1_s
 		\end{equation*}
 	\end{description}
 \end{definition}
+\begin{remark}
+	Such a mapping need not to be bijective. if it is bijective then we say it is a ring isomorphism or rings are isomorphic.
+\end{remark}
+\bigskip
+\begin{theorem}
+	Let\marginnote{\[ M \ \text{is a right R-module} \] \[\centering\Updownarrow \] \[\newline\exists \ f: R \ \xrightarrow[\text{Homo}]{\text{Ring}} End \ M \] } $R$ be a ring and $M$ be any abelian group with addition. then $M$ is a right $R$-module if and only if there exists a map which is ring homomorphism from $R$ to $End \ M$
+\end{theorem}
+\begin{proof}
+\begin{description}
+	\item[(Forward Part)\newline]
+	Let us suppose that $ M $ is a right $ R $-module.\newline
+	\textbf{Claim:} there exists a map which is ring homomorphism from $R$ to $End \ M$\newline
+	from hypothesis, there exist a map
+\end{description}
+\end{proof}
