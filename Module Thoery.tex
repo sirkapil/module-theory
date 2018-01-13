@@ -19,8 +19,9 @@
 \theoremstyle{definition}
 \newtheorem{definition}{Definition}[section]
 
-\theoremstyle{remark}
-\newtheorem*{remark}{Remark}
+\theoremstyle{defination}
+\newtheorem{remark}{Remark:}
+
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{corollary}{Corollary}[theorem]
 \newtheorem{lemma}[theorem]{Lemma}
@@ -47,7 +48,7 @@
 %%
 % Prints a trailing space in a smart way.
 \usepackage{xspace}
-
+\usepackage{cancel}
 %%
 % Some shortcuts for Tufte's book titles.  The lowercase commands will
 % produce the initials of the book title in italics.  The all-caps commands
@@ -62,7 +63,7 @@
 \newcommand{\BE}{\textit{Beautiful Evidence}\xspace}
 
 \newcommand{\TL}{Tufte-\LaTeX\xspace}
-
+\newcommand{\bigslant}[2]{{\raisebox{.1em}{$#1$}\left/\raisebox{-.2em}{$#2$}\right.}}
 % Prints the month name (e.g., January) and the year (e.g., 2008)
 \newcommand{\monthyear}{%
 	\ifcase\month\or January\or February\or March\or April\or May\or June\or

@@ -87,10 +87,56 @@ Similarly, Converse statement can be verified.
 \end{proof} \bigskip
 \begin{remark}
 	Let $S$ be a subring of ring $R$ then $_{S}M$ exists \marginnote{by existance means $M$ is a valid left module over mentioned ring or subring. i.e. satisfying those four properties.}  only if $_{R}M$ exists.
+\end{remark} \bigskip 
+\begin{remark}
+	Same Abelian group\marginnote{For Instance,  The field $\mathbb{R}$ is $\mathbb{R}-$module,$\mathbb{Q}-$module and $\mathbb{Z}-$module.} can have the structure of a Module for a number of different rings. 
+\end{remark} \bigskip 
+\begin{remark}
+Let $I$ be left ideal of $R$ then quotient ring $\bigslant{R}{I}$ is a left $R$-module.\marginnote{Here scaler multiplication is \newline \begin{equation*} 
+	R \times \bigslant{R}{I} \rightarrowtail \bigslant{R}{I} 
+	\end{equation*}
+defined as 
+\begin{equation*}
+(a \ , \ x+I) \rightarrowtail ax+I
+\end{equation*}
+
+$\forall \ a \in R$ and $\forall \ x+I \in \bigslant{R}{I}$} 
+
 \end{remark} 
+\begin{proof}[verification:]
+	`left to reader'\newline \bigskip
+	\textbf{Hint:} you need to verify those four properties: \eqref{1}-\eqref{4}
+\end{proof}
+\bigskip
+\begin{theorem}{(Elementry Properties:)}\newline
+	Let $M$ be a left $R$-module . Suppose $0_m \ \text{and} \ 0_r$ denotes additive identities of $M$ and $R$ respectively. Then,  for each $x \ \in M$ and $r \ \in R$ \newline
+\begin{description}
+\item (i)
+	\begin{equation*}
+	0_m = 0_r\ x = r\ 0_m
+	\end{equation*}
+\item (ii)
+	\begin{equation*}
+	r(-x) =  (-r)x = -rx 
+	\end{equation*}
+\end{description}
+\end{theorem}
+\begin{proof}
+	\begin{description}
+		\item[(i)]
+As $0_m$ is the additive identity of $M$. so, $0_m = 0_m + 0_m$\newline
+Consider \marginnote{$ \because r\ 0_m \in M$\newline so, $r\ 0_m = r\ 0_m + 0_m$}
+ $ r(0_m + 0_m) = r\ 0_m  = r\ 0_m +0_m $\newline
+but, $r(0_m + 0_m) = (r\ 0_m) +(r\ 0_m)$ \marginnote{$ \because \ M$ is a left $R$-module.\newline (using distribuitive property)}\newline
+so, we have \begin{equation*}
+r\ 0_m +r\ 0_m = r\ 0_m + 0_m
+\end{equation*}
+as ($M,+$) is an abelian group so left and right cancellation law holds.
+\begin{eqnarray*}
+\cancel{r\ 0_m} +r\ 0_m &=& \cancel{r\ 0_m} + 0_m \\ r\ 0_m &=& 0_m
+\end{eqnarray*}
+a similiar argument can be used to prove $0_m = 0_r\ x$.
+\item[(ii)]
 
-      
-       
- 	
- 
-
+\end{description}
+\end{proof}
