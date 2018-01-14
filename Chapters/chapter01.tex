@@ -184,21 +184,27 @@ a similar argument can be used to prove that $r(-x)  = -r x$.
    \[ f: M \times R \rightarrowtail M  \]
    defined by
    \[ (x \ , a) \rightarrowtail ax \]
-   $\forall \ x , y \ \in M \ \& \forall \ a ,b \in R  $
-   satisfying following properties:\newline
-    \begin{align} (x+y)a &= (x)a+(y)a \\
-     x(a+b) &= xa + xb \\
+   satisfying following properties:
+    \begin{align*} (x+y)a &= (x)a+(y)a \\
+     x(a+b)\mathnote{ $$\forall \ x , y \ \in M \ \&  \ a ,b \in R$$ } &= xa + xb \\
      x(ab) &= (xa)b \\
      x 1 &= x
-     \end{align}
+     \end{align*}
    for each $ a \in R $ , define a map(say $\phi_a $)
-   \[\phi_a: M\rightarrowtail\ M \]
+   \[ \phi_a: M\rightarrowtail\ M \]
    such that for each $x\in  M$
    \[ (x )\phi_a = xa \in \ M \]
    Now, we'll show that $ \phi_a \in \ End \ M $\newline
    Let $ x , y \in M $ \newline Consider  $  (x+y)\phi_a$
    \begin{align*}
-   	=& (x+y)a  \\ =& xa + ya  \\ =& (x)\phi_a + (y)\phi_a
+   	&= (x+y)a  \\ &= xa + ya  \\ &= (x)\phi_a + (y)\phi_a
    \end{align*}\marginnote[-5.5em]{using defination of $\phi_a$} \marginnote[-4em]{using \eqref{eq1.9}}
+   so, $\phi_a$ preserves addition and is a group homo from $M$ to $M$.
+   \newline i.e. $\phi_a \in End \ M$ \newline
+   Now, we can define a map (say $f$)
+   \begin{align*}
+   &f : R \rightarrowtail End \ M \\ \text{defined as} \\&a \rightarrowtail \phi_a \mathnote{$\forall a \in R$ and $\phi_a \in End \ M$}
+   \end{align*}
+   
 \end{description}
 \end{proof}
