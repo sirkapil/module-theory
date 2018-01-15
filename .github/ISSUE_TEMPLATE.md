@@ -1,21 +1,28 @@
-### For Feature Requests
+### For Content Requests
 
-Desired Feature:
-
-### For Bug Reports
-
-* BookStack Version *(Found in settings, Please don't put 'latest')*:
-* PHP Version:
-* MySQL Version:
-
-##### Expected Behavior
+Desired Content:
 
 
+### For Errors in document
+<!--- Put an `x` in all the boxes that apply: -->
+- [ ] I think it is a typing error.
+- [ ] I think it is an error in mathematical equation/inequality.
+- [ ] Other type of Errors.
 
-##### Current Behavior
+## Error Noticed in
+<!--- Put an `x` in all the boxes that apply: -->
+- [ ] Theorem / Lemma / Corollary /Proposition
+- [ ] Proofs of Theorem / Lemma / Corollary / Proposition
+- [ ] Definition / Remark / Note
+- [ ] Examples
+- [ ] Other
 
+* Other:
 
+### Tell us more to locate that error
 
-##### Steps to Reproduce
+* Chapter No.:
+* Page No.:
+* Other:
 
-
+##### Steps to Fix
