@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.14)  14 JAN 2018 22:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.14)  15 JAN 2018 14:22
 entering extended mode
 **"./Module Thoery.tex"
 ("Module Thoery.tex"
@@ -1006,27 +1006,27 @@ Package bibentry Warning: You have used \nobibliography*
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 242.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 242.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 240.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 240.
 ("Module Thoery.aux" (Chapters/chapter01.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 242.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 242.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 240.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 240.
 Package rerunfilecheck Info: File `"Module Thoery".out' has not changed.
 (rerunfilecheck)             Checksum: A4C529CBBC9939ED0D2926A0E39621FF;621.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 242.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 240.
  ) 
 Here is how much of TeX's memory you used:
- 14229 strings out of 493307
- 199293 string characters out of 3138822
- 400823 words of memory out of 3000000
+ 14231 strings out of 493307
+ 199303 string characters out of 3138822
+ 403823 words of memory out of 3000000
  17387 multiletter control sequences out of 15000+200000
- 106987 words of font info for 172 fonts, out of 3000000 for 9000
+ 107587 words of font info for 174 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,16n,45p,407b,510s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,18n,45p,726b,544s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
@@ -1041,9 +1041,9 @@ ine10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam
 gram Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/urw/palatino/uplri8a.pfb>
-Output written on "Module Thoery.pdf" (14 pages, 152954 bytes).
+Output written on "Module Thoery.pdf" (14 pages, 156030 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
+ 193 PDF objects out of 1000 (max. 8388607)
  45 named destinations out of 1000 (max. 500000)
  2601 words of extra memory for PDF output out of 10000 (max. 10000000)
 

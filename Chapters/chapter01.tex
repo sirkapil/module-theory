@@ -203,8 +203,33 @@ a similar argument can be used to prove that $r(-x)  = -r x$.
    \newline i.e. $\phi_a \in End \ M$ \newline
    Now, we can define a map (say $f$)
    \begin{align*}
-   &f : R \rightarrowtail End \ M \\ \text{defined as} \\&a \rightarrowtail \phi_a \mathnote{$\forall a \in R$ and $\phi_a \in End \ M$}
+   &f : R \rightarrowtail End \ M \\ \text{defined as} \\&(a)f \rightarrowtail \phi_a \mathnote{$\forall a \in R$ and $\phi_a \in End \ M$}
    \end{align*}
-   
+Now, We'll show that $ f $ is a ring homomorphism.\newline
+\begin{description}
+	\item[(A)]
+	\begin{align*}
+	(a+b)f &= \phi_{a+b}
+	\mathnote{\[ \text{for each}\  x \in M \ \text{we have,}\]
+		\begin{align*} (x)\phi_{a+b} &= x(a+b) \\ &=xa+xb &=(x)\phi_a +(y)\phi_b \\ \therefore \ \phi_{a+b} &= \phi_a +\phi_b \end{align*}}
+		  \\  &= \phi_a +\phi_b \\&= (a)f +(b)f
+	\end{align*}
+    \item[(B)] \begin{align*}
+    (ab)f &= \phi_{ab}\mathnote{\[ \text{for each}\  x \in M \ \text{we have,}\] \begin{align*} (x)\phi_{ab} &= x(ab) \\&=(xa)b \ =\ (xa)\phi_b \\&= (x)\phi_a \centerdot\phi_b \end{align*}\[ \therefore \ \phi_{ab} = \phi_a\centerdot\phi_b \]} \\  &= \phi_a\centerdot\phi_b \\&= (a)f\ (b)f
+    \end{align*}
+\item[(C)] \begin{align*}
+(1)f\mathnote{\[ \text{for each}\  x \in M \ \text{we have,}\] \begin{align*} (x)\phi_{1} &= x(1) \\&=x \end{align*}\[ \therefore \ \phi_{1} \ \text{is identity of}End \ M \]} &= \phi_{1}
+\end{align*}
+\end{description}
+\bigskip
+Thus, Forward Part is proved.\newline\bigskip
+\item[(Converse Part)] 
+\bigskip
+Assume that $\exists$ a ring homo.( say $f$) 
+\[ f: R\xrightarrow[\text{Homo}]{\text{Ring}} End \ M \]
+for any $a \in R$,we denote the $(a)f$ by $f_a \in End \ M$\newline
+\textbf{Claim:} $M$ is a right $R$-module.\newline
+
+
 \end{description}
 \end{proof}
