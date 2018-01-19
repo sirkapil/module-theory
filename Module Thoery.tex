@@ -21,18 +21,16 @@
 \renewcommand{\thesubsection}{(\alph{subsection})}
 %%
 \renewcommand\qedsymbol{$\blacksquare$}
-\theoremstyle{definition}
-\newtheorem{definition}{Definition}[section]
-
 \theoremstyle{theorem}
-\newtheorem{thm}{Theorem}[section]
+\newtheorem{thm}{Theorem}[chapter]
+\newtheorem{definition}{Definition}[chapter]
 \newtheorem{lemma}[thm]{Lemma}
 \newtheorem{prop}[thm]{Proposition}
 \newtheorem{cor}[thm]{Corollary}
-\newtheorem{defn}[thm]{Definition}
-\newtheorem{examp}[thm]{Example}
+\newtheorem{defn}[definition]{Definition}
+\newtheorem{examp}[chapter]{Example}
 \newtheorem{conj}[thm]{Conjecture}
-\newtheorem{remark}[thm]{Remark:}
+\newtheorem{remark}[section]{Remark:}
 \numberwithin{equation}{chapter}
 \DeclareRobustCommand{\eqref}[1]{\eqrefaux#1\eqrefaux}
 \def\eqrefaux eq#1\eqrefaux{\textup{(#1)}}
@@ -233,6 +231,7 @@ If you find my work useful and want to contribute then you are welcome by heart.
 \mainmatter
 \include{./Chapters/chapter01}
 
+\include{./Chapters/chapter99}
 \backmatter
 % Encoding: UTF-8
 
