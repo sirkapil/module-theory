@@ -6,4 +6,6 @@
 \contentsline {subsection}{Left Module:}{9}{subsection*.8}
 \contentsline {subsection}{Right Module:}{9}{subsection*.9}
 \contentsline {subsection}{Examples :}{10}{subsection*.10}
+\contentsline {section}{Submodules}{16}{section*.11}
+\contentsline {subsection}{Examples:}{16}{subsection*.12}
 \contentsfinish 
