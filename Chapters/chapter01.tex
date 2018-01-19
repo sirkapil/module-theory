@@ -65,7 +65,7 @@ Now, Define an another mapping
  \begin{equation*}
  (x \ ,\ a) \rightarrow x*a \ = \ ax
  \end{equation*}
-To check $M$ is a right $R-$Module , we need to verify properties number \ref{eq:eq1.5}-\eqref{eq1.8}
+To check $M$ is a right $R-$Module , we need to verify properties number \ref{eq1.5}-\eqref{eq1.8}
  \begin{description}
  	\item[(i) Distribuitive Law]
  	\begin{align*}
@@ -229,7 +229,67 @@ Assume that $\exists$ a ring homo.( say $f$)
 \[ f: R\xrightarrow[\text{Homo}]{\text{Ring}} End \ M \]
 for any $a \in R$,we denote the $(a)f$ by $f_a \in End \ M$\newline
 \textbf{Claim:} $M$ is a right $R$-module.\newline
-
-
+so let's define a map 
+\[ R\times M \longrightarrow M \] defined by 
+\[ (a , x ) \rightarrowtail x*a = (x)f_a \]
+to prove $M$ is a right $R$-module , we need to verify four properties $\eqref{eq1.5}$- $\eqref{eq1.9}$ of right $R$-module.
+\begin{description}
+	\item[(i)]
+\end{description}
+\begin{align*}
+(x+y)*a &= (x+y)f_a \\& = (x)f_a +(y)f_a \mathnote{\[ \because\ f_a \ \in End \ M \]}\\& = x*a + y*a 
+\end{align*}
+   \item{(ii)}
+   \begin{align*}
+   x*(a+b) &= (x)f_{a+b} \\ &= (x)(f_a + f_b) \mathnote{\[ \because\ f_a \ , \ f_b \in End \ M \]} \\&=(x)f_a + (x)f_b
+ \\ &= (x*a) + (x*b)   \end{align*}
+ \item{(iii)}
+ \begin{align*}
+ x*(ab) &= (x)f_{ab} \\ & = (x)f_a\centerdot f_b \\&=(x f_a)f_b \\&= (x*a)*b
+ \end{align*}
+ \item{(iv)}
+ \[ x*1 = (x)f_1  = x\]\marginnote{\[ \because\ f_1 \text{is identity in} End \ M \]}
+Thus, $ M $ is a right $R$-module.
 \end{description}
 \end{proof}
+\begin{definition}[Anti-Ring Homomorphism]
+	Let $R$ and $S$ be two rings with identities $1_r$ and $1_s$ respectively. Define a map $f$
+	\[ f : R \rightarrowtail S \] satisfying following properties, for each $a , b \in R$ \newline
+	\begin{description}
+		\item[(i)] \[ (a+b)f = (a)f +(b)f \]
+		\item[(ii)] \[ (ab)f  = (b)f\ (a)f \]
+		\item[(iii)] \[ (1_r)f = 1_s \]
+  	
+	\end{description}
+	 Then, $f$	is called anti-ring homomorphism.
+\end{definition}
+\begin{thm}
+	Let\marginnote{\[ M \ \text{is a left R-module} \] \[\centering\Updownarrow \] \[\newline\exists \ f: R \ \xrightarrow[\text{Homo}]{\text{Anti-Ring}} End \ M \] } $R$ be a ring and $M$ be any abelian group with addition. then $M$ is a left $R$-module if and only if there exists a map which is anti-ring homomorphism from $R$ to $End \ M$.
+\end{thm}
+\begin{proof}
+	Left to reader.
+\end{proof}
+\bigskip
+\begin{definition}[SubModule]
+	Let $M$ be a left (right) $R$-module then a subset $N$ of $M$ is called a submodule of $M$ if \underline{$N$ is a left (right) $R$-module} \underline{under the operation induced from $M$.}\newline \bigskip
+	In other words, A subset $N$ of $M$ is called submodule of $M$
+	\begin{description}
+		\item[(i)] $N$ is subgroup of $M$.
+		\item[(ii)] $N$ is closed under induced scaler multiplication from $M$.
+	\end{description}
+\end{definition}
+\bigskip
+\begin{thm}[\underline{Criterion for Checking Modules}]
+	Let $M$ be a left (right) $R$-module and $N$ be a subset of $M$ then $N$ is a submodule of $M$ if and only if 
+	\begin{description}
+		\item[(i)] 
+		\marginnote[2.5em]{\[ \forall \ x , y  \in N \] } \[ x-y \in N \]
+		\item[(ii)] 
+		\marginnote[2.5em]{\[ \forall \ a \in R \ \&\ x \in N \]} \[ a x \in N \]
+	\end{description}
+\end{thm}
+\begin{proof}
+	left to reader.
+\end{proof}
+
+	
