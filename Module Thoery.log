@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.14)  20 JAN 2018 09:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.20)  20 JAN 2018 16:16
 entering extended mode
 **"./Module Thoery.tex"
 ("Module Thoery.tex"
@@ -296,7 +296,7 @@ Package: paralist 2017/01/22 v2.7 Extended list environments
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\letterspace.sty"
-Package: letterspace 2017/07/07 v2.7 Robust letterspacing (RS)
+Package: letterspace 2018/01/14 v2.7a Robust letterspacing (RS)
 LaTeX Info: Redefining \lsstyle on input line 345.
 LaTeX Info: Redefining \lslig on input line 346.
 LaTeX Info: Redefining \textls on input line 371.
@@ -1016,14 +1016,24 @@ LaTeX Warning: Marginpar on page 16 moved.
 
 LaTeX Warning: Marginpar on page 16 moved.
 
-) [16]
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <8> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 308.
+
+LaTeX Warning: Marginpar on page 16 moved.
+
+LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <10> not available
+(Font)              Font shape `T1/pplj/b/it' tried instead on input line 312.
+[16]) [17]
 \openout2 = `./Chapters/chapter99.aux'.
 
- (Chapters/chapter99.tex) [17
+ (Chapters/chapter99.tex [18
 
 
 
-] [18
+]) [19] [20
 
 
 ]
@@ -1046,30 +1056,32 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 239.
  ) 
 Here is how much of TeX's memory you used:
- 14256 strings out of 493307
- 199769 string characters out of 3138822
- 405283 words of memory out of 3000000
- 17390 multiletter control sequences out of 15000+200000
- 107587 words of font info for 174 fonts, out of 3000000 for 9000
+ 14282 strings out of 493307
+ 199991 string characters out of 3138822
+ 405286 words of memory out of 3000000
+ 17394 multiletter control sequences out of 15000+200000
+ 114248 words of font info for 186 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,18n,45p,726b,544s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/fpl/fplbj8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/math
-pazo/fplmbb.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmri
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/fpl/fplrc8a.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/fpl/fplrij8a.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/bera/fvmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/bera/
-fvmro8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/l
-ine10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam
-10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/urw/palatino/uplri8a.pfb>
-Output written on "Module Thoery.pdf" (18 pages, 163700 bytes).
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/fpl/fplbj8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/mathpazo/fpl
+mbb.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmri.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/fpl/fplrc8a.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/fpl/fplrij8a.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/bera/fvmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/bera/fvmro8a.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/line10.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/urw/palatino/uplbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/u
+rw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/up
+lri8a.pfb>
+Output written on "Module Thoery.pdf" (20 pages, 189393 bytes).
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
- 60 named destinations out of 1000 (max. 500000)
+ 258 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
  2617 words of extra memory for PDF output out of 10000 (max. 10000000)
 
