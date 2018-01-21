@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.20)  20 JAN 2018 18:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.20)  21 JAN 2018 18:59
 entering extended mode
 **"./Module Thoery.tex"
 ("Module Thoery.tex"
@@ -1026,7 +1026,7 @@ LaTeX Warning: Marginpar on page 16 moved.
 
 LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <10> not available
 (Font)              Font shape `T1/pplj/b/it' tried instead on input line 312.
-[16]) [17] [18]
+[16] [17]) [18]
 \openout2 = `./Chapters/chapter99.aux'.
 
  (Chapters/chapter99.tex) [19
@@ -1079,7 +1079,7 @@ iles/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 urw/palatino/uplbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/
 uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on "Module Thoery.pdf" (20 pages, 195957 bytes).
+Output written on "Module Thoery.pdf" (20 pages, 196342 bytes).
 PDF statistics:
  263 PDF objects out of 1000 (max. 8388607)
  72 named destinations out of 1000 (max. 500000)
