@@ -1,0 +1,12 @@
+\contentsline {section}{Warning :}{7}{section*.3}
+\contentsline {section}{About :}{7}{section*.4}
+\contentsline {section}{Contribution :}{7}{section*.5}
+\contentsline {chapter}{Introduction to Modules}{9}{chapter*.6}
+\contentsline {section}{\texttt {Defination of Module}}{9}{section*.7}
+\contentsline {subsection}{Left Module:}{9}{subsection*.8}
+\contentsline {subsection}{Right Module:}{9}{subsection*.9}
+\contentsline {subsection}{Examples :}{10}{subsection*.10}
+\contentsline {section}{Submodules}{16}{section*.11}
+\contentsline {subsection}{Examples:}{16}{subsection*.12}
+\contentsline {chapter}{ Stay Tuned for next chapters!}{19}{chapter*.13}
+\contentsfinish 

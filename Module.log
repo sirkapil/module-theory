@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.20)  23 JAN 2018 19:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.20)  23 JAN 2018 21:22
 entering extended mode
-**"./Module Thoery.tex"
-("Module Thoery.tex"
+**./Module.tex
+(Module.tex
 LaTeX2e <2017-04-15>
 Babel <3.16> and hyphenation patterns for 75 language(s) loaded.
 (tufte-book.cls
@@ -341,8 +341,7 @@ LaTeX Info: Redefining \cite on input line 694.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\bibentry.sty"
 Package: bibentry 2007/10/30 1.5 (PWD)
-)
-("Module Thoery.bbl")
+) (Module.bbl)
 \c@@tufte@num@bibkeys=\count110
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\sauerj\optparams.sty"
@@ -681,12 +680,12 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
 \@indexfile=\write4
-\openout4 = `"Module Thoery.idx"'.
+\openout4 = `Module.idx'.
 
 
-Writing index file "Module Thoery".idx
-("Module Thoery.aux" (Chapters/chapter01.aux) (Chapters/chapter99.aux))
-\openout1 = `"Module Thoery.aux"'.
+Writing index file Module.idx
+(Module.aux (Chapters/chapter01.aux) (Chapters/chapter99.aux))
+\openout1 = `Module.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 159.
 LaTeX Font Info:    ... okay on input line 159.
@@ -733,12 +732,11 @@ LaTeX Info: Redefining \ref on input line 159.
 LaTeX Info: Redefining \pageref on input line 159.
 LaTeX Info: Redefining \nameref on input line 159.
 
-("Module Thoery.out") ("Module Thoery.out")
+(Module.out) (Module.out)
 \@outlinefile=\write5
-\openout5 = `"Module Thoery.out"'.
+\openout5 = `Module.out'.
 
-
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 159.
 
 *geometry* driver: auto-detecting
@@ -877,12 +875,12 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 6.25204pt on input line 173.
  [2
 
-]
-("Module Thoery.toc")
+] (Module.toc)
 \tf@toc=\write6
-\openout6 = `"Module Thoery.toc"'.
+\openout6 = `Module.toc'.
 
- [3
+
+[3
 
 ] [4
 
@@ -1020,12 +1018,12 @@ LaTeX Warning: Marginpar on page 16 moved.
 LaTeX Warning: Marginpar on page 16 moved.
 
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <8> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 308.
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 310.
 
 LaTeX Warning: Marginpar on page 16 moved.
 
 LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <10> not available
-(Font)              Font shape `T1/pplj/b/it' tried instead on input line 312.
+(Font)              Font shape `T1/pplj/b/it' tried instead on input line 314.
 [16] [17]) [18]
 \openout2 = `./Chapters/chapter99.aux'.
 
@@ -1044,10 +1042,10 @@ Package bibentry Warning: You have used \nobibliography*
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 240.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 240.
-("Module Thoery.aux" (Chapters/chapter01.aux) (Chapters/chapter99.aux))
+(Module.aux (Chapters/chapter01.aux) (Chapters/chapter99.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 240.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 240.
-Package rerunfilecheck Info: File `"Module Thoery".out' has not changed.
+Package rerunfilecheck Info: File `Module.out' has not changed.
 (rerunfilecheck)             Checksum: DC6A21FCF5B5D46330A425CBFFE9D333;938.
 
 
@@ -1057,12 +1055,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 240.
  ) 
 Here is how much of TeX's memory you used:
  14300 strings out of 493307
- 200313 string characters out of 3138822
- 405286 words of memory out of 3000000
+ 200183 string characters out of 3138822
+ 404241 words of memory out of 3000000
  17411 multiletter control sequences out of 15000+200000
  119318 words of font info for 202 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,18n,45p,726b,544s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,18n,45p,717b,544s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
@@ -1079,7 +1077,7 @@ iles/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 urw/palatino/uplbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/
 uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on "Module Thoery.pdf" (20 pages, 196341 bytes).
+Output written on Module.pdf (20 pages, 196314 bytes).
 PDF statistics:
  263 PDF objects out of 1000 (max. 8388607)
  72 named destinations out of 1000 (max. 500000)
