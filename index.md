@@ -7,6 +7,14 @@
 <meta name="ProgId" content="FrontPage.Editor.Document">
 <meta name="Microsoft Theme" content="network 0011, default">
 <meta name="Microsoft Border" content="tlb, default">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#99A3A4">
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#99A3A4">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-status-bar-style" content="#99A3A4">
+<link rel="icon" sizes="16x16 32x32 48x48 96x96 192x192" href="//sirkapil.me/img/icon/icon.png">
 </head>
 
 <body background="//cdn1.netlify.com/bg/img/du1.gif" bgcolor="#FFFFFF" text="#000000" link="blue" vlink="blue" alink="blue"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><!--mstheme--><font face="trebuchet ms, Arial, Helvetica">
@@ -91,14 +99,14 @@
 	<!--msthemelist--><tr><td valign="baseline" width="42"><img src="//cdn1.netlify.com/bg/img/square.gif" width="12" height="12" hspace="15" alt="bullet"></td><td valign="top" width="100%"><!--mstheme--><font face="trebuchet ms, Arial, Helvetica">Log of running BibTeX: <a href="Module.blg">Module.blg</a> <!--mstheme--></font><!--msthemelist--></td></tr>
 	<!--msthemelist--></table><!--mstheme--><font face="trebuchet ms, Arial, Helvetica">
   <p>
-   All files in one zip: <a href="all.zip">all.zip</a><!--mstheme--></font><table border="0" cellpadding="0" cellspacing="0" width="100%">
+   All files in one zip: <a href="https://github.com/sirkapil/module-theory/archive/master.zip">all.zip</a><!--mstheme--></font><table border="0" cellpadding="0" cellspacing="0" width="100%">
   </table><!--mstheme--><font face="trebuchet ms, Arial, Helvetica">
 </blockquote>
 
 <!--mstheme--></font><!--msnavigation--></td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><!--mstheme--><font face="trebuchet ms, Arial, Helvetica">
 
 <p dir="ltr"><span lang="en"><font size="2">L</font></span><span lang="en-us"><font size="2">ast
-updated on 24/01/2018</font></span></p>
+updated on 24/01/2018<br>Website Theme Credit: <a href="http://www.cs.technion.ac.il/~yogi/Courses/CS-Scientific-Writing/examples/simple/simple.htm" TARGET="_blank">Joseph Gil ~yogi </a></font></span></p>
 
 <!--mstheme--></font></td></tr><!--msnavigation--></table></body>
 
