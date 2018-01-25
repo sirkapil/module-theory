@@ -59,6 +59,7 @@
 \usepackage{xspace}
 \usepackage{cancel}
 
+
 %%
 % Some shortcuts for Tufte's book titles.  The lowercase commands will
 % produce the initials of the book title in italics.  The all-caps commands
@@ -239,11 +240,15 @@ interested in contribution of this project.\newline
 %%
 % Start the main matter (normal chapters)
 \mainmatter
+
 \include{./Chapters/chapter01}
 
 \include{./Chapters/chapter99}
+
 \backmatter
-% Encoding: UTF-8
+
+\bibliography{Module}
+\bibliographystyle{plainnat}
 
 % bibliography, glossary and index would go here.
 \end{document} 

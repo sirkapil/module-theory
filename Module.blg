@@ -1,0 +1,11 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Module.aux
+White space in argument---line 19 of file Module.aux
+ : \citation{Edward
+ :                  Tufte}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: ./Chapters/chapter01.aux
+A level-1 auxiliary file: ./Chapters/chapter99.aux
+The style file: plainnat.bst
+Database file #1: Module.bib
+Warning--can't use both author and editor fields in Cohn2005
+(There was 1 error message)

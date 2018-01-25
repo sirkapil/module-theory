@@ -1,2 +1,1 @@
-## module-theory
-![image](./Images/readme.png)
+ ![readme.png](https://cdn1.netlify.com/img/readme.png)
