@@ -106,7 +106,7 @@
 <!--mstheme--></font><!--msnavigation--></td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><!--mstheme--><font face="trebuchet ms, Arial, Helvetica">
 
 <p dir="ltr"><span lang="en"><font size="2">L</font></span><span lang="en-us"><font size="2">ast
-updated on 24/01/2018<br>Website Theme Credit: <a href="http://www.cs.technion.ac.il/~yogi/Courses/CS-Scientific-Writing/examples/simple/simple.htm" TARGET="_blank">Joseph Gil ~yogi </a></font></span></p>
+updated on 24/01/2018<br>Website Theme Credit: <a href="http://www.scs.technion.ac.il/~yogi/Courses/CS-Scientific-Writing/examples/simple/simple.htm" TARGET="_blank">Joseph Gil ~yogi </a></font></span></p>
 
 <!--mstheme--></font></td></tr><!--msnavigation--></table></body>
 
