@@ -1,4 +1,4 @@
-# pdf2htmlEX manifest 
+# pdf2htmlEX manifest
 # Copyright (C) 2012,2013 Lu Wang <coolwanglu@gmail.com>
 #
 # Syntax
@@ -26,7 +26,7 @@
 """
 
 #############
-# Styles 
+# Styles
 # base CSS styles - Do not modify
 @base.min.css
 
@@ -51,7 +51,7 @@ $css
 # Refer to DEFAULT_CONFIG in viewer.js for possible keys
 # E.g.
 # pdf2htmlEX.defaultViewer = new pdf2htmlEX.Viewer({
-#   'key_handler' : false 
+#   'key_handler' : false
 # });
 #TEST_IGNORE_BEGIN
 @pdf2htmlEX.min.js
@@ -68,7 +68,15 @@ try{
 #############
 # Do not modify
 """
-<title></title>
+<title>Kapil Chaudhary</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#99A3A4">
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#99A3A4">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-status-bar-style" content="#99A3A4">
+<link rel="icon" sizes="16x16 32x32 48x48 96x96 192x192" href="//sirkapil.me/img/icon/icon.png">
 </head>
 <body>
 """
@@ -77,7 +85,7 @@ try{
 # The sidebar
 # By default this is hidden, pdf2htmlEX.js will add the 'opened' class if it is not empty
 # You can add a class 'opened' here if you want it always opened or you don't use pdf2htmlEX.js
-# e.g. 
+# e.g.
 # <div id="sidebar" class="opened">
 
 #TEST_IGNORE_BEGIN
