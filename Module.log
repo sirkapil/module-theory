@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.20)  25 JAN 2018 22:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.20)  26 JAN 2018 10:20
 entering extended mode
 **./Module.tex
 (Module.tex
@@ -1054,7 +1054,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 254.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 254.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 254.
 Package rerunfilecheck Info: File `Module.out' has not changed.
-(rerunfilecheck)             Checksum: 7B613CC052C00A3C434E240016A09743;1044.
+(rerunfilecheck)             Checksum: 14FC326A007100C7D6FB80FC9241A49F;749.
 
 
 LaTeX Warning: There were undefined references.
@@ -1062,10 +1062,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 254.
  ) 
 Here is how much of TeX's memory you used:
- 14314 strings out of 493307
- 200392 string characters out of 3138822
- 404355 words of memory out of 3000000
- 17419 multiletter control sequences out of 15000+200000
+ 14308 strings out of 493307
+ 200322 string characters out of 3138822
+ 404354 words of memory out of 3000000
+ 17416 multiletter control sequences out of 15000+200000
  121117 words of font info for 204 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,18n,45p,675b,544s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1085,9 +1085,9 @@ iles/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 urw/palatino/uplbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/
 uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Module.pdf (21 pages, 198165 bytes).
+Output written on Module.pdf (21 pages, 196839 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
- 75 named destinations out of 1000 (max. 500000)
- 2625 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 262 PDF objects out of 1000 (max. 8388607)
+ 72 named destinations out of 1000 (max. 500000)
+ 2601 words of extra memory for PDF output out of 10000 (max. 10000000)
 
