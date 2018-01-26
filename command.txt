@@ -1,1 +1,1 @@
-pdf2htmlEX.exe --fit-width 1024 --embed CFIJO --process-outline 1 --dest-dir html --split-pages 1 C:\Users\kapil\Documents\GitHub\module-theory\Module.pdf
+pdf2htmlEX.exe --fit-width 1024 --embed CFIJO --process-outline 1 --dest-dir html --split-pages 0 C:\Users\kapil\Documents\GitHub\module-theory\Module.pdf

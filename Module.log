@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.20)  26 JAN 2018 10:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.20)  26 JAN 2018 14:51
 entering extended mode
 **./Module.tex
 (Module.tex
@@ -1028,7 +1028,19 @@ LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <10> not available
 
 LaTeX Warning: Marginpar on page 17 moved.
 
-[17]) [18]
+[17]
+
+LaTeX Warning: Marginpar on page 18 moved.
+
+
+Overfull \hbox (9.58757pt too wide) in paragraph at lines 344--344
+[]$\U/msa/m/n/8 *  \OMS/zplm/m/n/8 F [] \OML/zplm/m/it/8 M[] 
+ []
+
+
+LaTeX Warning: Marginpar on page 18 moved.
+
+) [18]
 \openout2 = `./Chapters/chapter99.aux'.
 
  (Chapters/chapter99.tex) [19
@@ -1085,7 +1097,7 @@ iles/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 urw/palatino/uplbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/
 uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Module.pdf (21 pages, 196839 bytes).
+Output written on Module.pdf (21 pages, 198418 bytes).
 PDF statistics:
  262 PDF objects out of 1000 (max. 8388607)
  72 named destinations out of 1000 (max. 500000)
