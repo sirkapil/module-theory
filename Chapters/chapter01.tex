@@ -352,8 +352,27 @@ Thus, $ M $ is a right $R$-module.
          Let $u\ ,\ v \in P$ . so, we need to show $u + \alpha v \in P$ \marginnote{for any $\alpha\in R$}
          \[u = \sum\limits_{i\in J_n} a_i x_i\] \marginnote[-2em]{$\forall x_i \in S \ \&\ a_i \in R$}
           \[v = \sum\limits_{j\in J_m} b_j y_j\]  \marginnote[-2em]{$\forall y_j \in S \ \&\ b_j \in R$}
-          
-\end{description}	
+          define, for any $\alpha \in R$
+          \begin{align*} z_k = x_k \qquad ,\qquad c_k = a_k     \mathnote{$k \in J_n$}  \\
+           z_{k+j} = y_j \qquad , \qquad c_{k+j} = \alpha b_j    \mathnote{$j \in J_m$}  \end{align*}
+          Thus, we have
+           \begin{align*}
+            u+ \alpha v &= \sum\limits_{i\in J_n}a_i x_i + \alpha \sum\limits_{j\in J_m}b_j y_j  \\
+             & =\sum\limits_{i\in J_n}a_i x_i + \sum\limits_{j\in J_m}\alpha b_j y_j  \\
+             &= \sum\limits_{k\in J_n}c_k z_k + \sum\limits_{k = n+1}^{n+m} c_k z_k  \\
+             &=  \sum\limits_{k \in J_{n+m}} c_k z_k
+          \end{align*}
+          so, $P$ is a submmodule of $M$ containing $S$.
+          \newline Now, we'll show that $P$ is \underline{smallest} submmodule of $M$ containing $S$. 
+          \newline \bigskip 
+          Let $K$ be any arbitirary submodule of $M$ containing $S$
+           \[\text{i.e.} \ K \ \in \mathcal{F}\]
+          $\because  \ \ \ K $ is a submodule and $S \subseteq K$ \newline
+          $\therefore \  K$  is closed under scaler multiplication and addition. 
+          \[\text{i.e}\qquad \sum\limits_{i \in J_n} a_i x_i  \in K \]  \marginnote[-2.5em]{$\forall \ a_i \in R \ \& \ x_i \in S $}
+          so , \[P =\left\langle S\right\rangle \subseteq K \]
+               Hence,  $P$ is smallest submmodule of $M$ containing $S$.
+           \end{description}	
 	
 	
 \end{proof} 

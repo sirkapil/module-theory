@@ -5,6 +5,6 @@
 \contentsline {subsection}{Examples :}{10}{subsection*.7}
 \contentsline {section}{Submodules}{16}{section*.8}
 \contentsline {subsection}{Examples:}{16}{subsection*.9}
-\contentsline {chapter}{ Stay Tuned for next chapters!}{19}{chapter*.10}
-\contentsline {chapter}{Bibliography}{21}{chapter*.11}
+\contentsline {chapter}{ Stay Tuned for next chapters!}{21}{chapter*.10}
+\contentsline {chapter}{Bibliography}{23}{chapter*.11}
 \contentsfinish 
