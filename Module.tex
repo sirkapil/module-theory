@@ -6,15 +6,16 @@
 \publisher{University of Delhi}
 
 \usepackage{amsmath}
-\usepackage{amsthm}
+\usepackage{amsthm}   
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{pagecolor,lipsum}
 \usepackage{hyperref}
-%%
-% For nicely typeset tabular material
 \usepackage{booktabs}
-\setcounter{section}{1}
+\usepackage{cleveref}
+\pdfstringdefDisableCommands{\let\Cref\autoref}
+   %%
+% For nicely typeset tabular material \setcounter{section}{1}
 \setcounter{chapter}{1}
 \renewcommand{\theequation}{\thesection.\arabic{equation}}
 \renewcommand{\thesection}{\arabic{section}}
@@ -58,8 +59,6 @@
 % Prints a trailing space in a smart way.
 \usepackage{xspace}
 \usepackage{cancel}
-
-
 %%
 % Some shortcuts for Tufte's book titles.  The lowercase commands will
 % produce the initials of the book title in italics.  The all-caps commands
@@ -241,7 +240,7 @@ interested in contribution of this project.\newline
 %%
 % Start the main matter (normal chapters)
 \mainmatter
- \pagecolor{white!40!white}
+ \pagecolor{white!40!yellow}
 \include{./Chapters/chapter01}
 \pagecolor{white!40!yellow}
 \include{./Chapters/chapter99}
