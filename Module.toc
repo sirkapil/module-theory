@@ -2,6 +2,7 @@
 \contentsline {section}{\textbf {Definition of Module}}{9}{section*.4}
 \contentsline {subsection}{Examples :}{10}{subsection*.5}
 \contentsline {subsection}{Examples:}{16}{subsection*.6}
-\contentsline {chapter}{ Stay Tuned for next chapters!}{21}{chapter*.7}
-\contentsline {chapter}{Bibliography}{23}{chapter*.8}
+\contentsline {subsection}{Examples}{19}{subsection*.7}
+\contentsline {chapter}{ Stay Tuned for next chapters!}{21}{chapter*.8}
+\contentsline {chapter}{Bibliography}{23}{chapter*.9}
 \contentsfinish 
