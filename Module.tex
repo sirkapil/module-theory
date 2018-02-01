@@ -15,6 +15,21 @@
 \usepackage{cleveref}
 \pdfstringdefDisableCommands{\let\Cref\autoref}
 \usepackage{nameref}
+\usepackage{tikz-cd}
+\usetikzlibrary{cd}
+\usepackage{tikz}
+\usetikzlibrary{arrows,chains,matrix,positioning,scopes}
+\makeatletter
+\tikzset{join/.code=\tikzset{after node path={%
+\ifx\tikzchainprevious\pgfutil@empty\else(\tikzchainprevious)%
+edge[every join]#1(\tikzchaincurrent)\fi}}}
+\makeatother
+%
+\tikzset{>=stealth',every on chain/.append style={join},
+         every join/.style={->}}
+\tikzstyle{labeled}=[execute at begin node=$\scriptstyle,
+   execute at end node=$]
+%%
    %%
 % For nicely typeset tabular material \setcounter{section}{1}
 \setcounter{chapter}{1}
@@ -211,7 +226,7 @@
 	\noindent\fontsize{18}{22}\selectfont\itshape
 	\nohyphenation
 	\centering
-	Dedicated to my family and my best friend\newline\texttt{``Neeraj K. Gaud,,}
+	Dedicated to my family and my best friend\newline\textrm{\textit{Neeraj K. Gaud}}
  \end{doublespace}
 \vfill
 \vfill

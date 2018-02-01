@@ -68,7 +68,7 @@ Now, Define an another mapping
  \begin{equation*}
  (x \ ,\ a) \rightarrow x*a \ = \ ax
  \end{equation*}
-To check $M$ is a right $R-$Module , we need to verify properties number \ref{eq1.5}-\eqref{eq1.8}
+To check $M$ is a right $R-$Module , we need to verify properties number \eqref{eq1.5}-\eqref{eq1.8}
  \begin{description}
  	\item[(i) Distribuitive Law]
  	\begin{align*}
@@ -95,11 +95,11 @@ Similarly, Converse statement can be verified.
 \end{remark} \bigskip
 \begin{remark}
 Let $I$ be left ideal of $R$ then quotient ring $\bigslant{R}{I}$ is a left $R$-module.\marginnote{Here scaler multiplication is \newline \begin{equation*}
-	R \times \bigslant{R}{I} \rightarrowtail \bigslant{R}{I}
+	R \times \bigslant{R}{I} \rightarrow \bigslant{R}{I}
 	\end{equation*}
 defined as
 \begin{equation*}
-(a \ , \ x+I) \rightarrowtail ax+I
+(a \ , \ x+I) \rightarrow ax+I
 \end{equation*}
 
 $\forall \ a \in R$ and $\forall \ x+I \in \bigslant{R}{I}$}
@@ -128,7 +128,7 @@ $\forall \ a \in R$ and $\forall \ x+I \in \bigslant{R}{I}$}
 	\begin{description}
 		\item[(i)]
 As $0_m$ is the additive identity of $M$. so, $0_m = 0_m + 0_m$\newline
-Consider \marginnote{$ \because \ (r\ ,\ 0_m)\rightarrowtail r\ 0_m \in M$\newline so, $r\ 0_m = r\ 0_m + 0_m$}
+Consider \marginnote{$ \because \ (r\ ,\ 0_m)\rightarrow r\ 0_m \in M$\newline so, $r\ 0_m = r\ 0_m + 0_m$}
  $ r(0_m + 0_m) = r\ 0_m  = r\ 0_m +0_m $\newline
 but, $r(0_m + 0_m) = (r\ 0_m) +(r\ 0_m)$ \marginnote{
 	$ \because \ M$ is a left $R$-module.\newline (using distribuitive property)}\newline
@@ -141,7 +141,7 @@ as ($M,+$) is an abelian group so left and right cancellation law holds.
 \end{eqnarray*}
 a similiar argument can be used to prove $0_m = 0_r\ x$.
 \item[(ii)]
-as $M$ is a left $R$-module so $(r \ , x )\ \rightarrowtail rx \in M$ \newline
+as $M$ is a left $R$-module so $(r \ , x )\ \rightarrow rx \in M$ \newline
 Now, Consider $(-r)x + rx$
 \begin{eqnarray*}
 \text{using distribuitive law} \\ (-r)x + rx &=& (-r + r)x \\  &=& 0_r \ x \\ &=& 0_m
@@ -185,9 +185,9 @@ a similar argument can be used to prove that $r(-x)  = -r x$.
 	Let us suppose that $ M $ is a right $ R $-module.\newline
 	\textbf{Claim:} there exists a map which is ring homomorphism from $R$ to $End \ M$\newline
    $ \because \ M  $ is a left $ R $-module , so there exist a map\newline
-   \[ f: M \times R \rightarrowtail M  \]
+   \[ f: M \times R \rightarrow M  \]
    defined by
-   \[ (x \ , a) \rightarrowtail ax \]
+   \[ (x \ , a) \rightarrow ax \]
    satisfying following properties:
     \begin{align*} (x+y)a &= (x)a+(y)a \\
      x(a+b)\mathnote{ $$\forall \ x , y \ \in M \ \&  \ a ,b \in R$$ } &= xa + xb \\
@@ -195,7 +195,7 @@ a similar argument can be used to prove that $r(-x)  = -r x$.
      x 1 &= x
      \end{align*}
    for each $ a \in R $ , define a map(say $\phi_a $)
-   \[ \phi_a: M\rightarrowtail\ M \]
+   \[ \phi_a: M\rightarrow\ M \]
    such that for each $x\in  M$
    \[ (x )\phi_a = xa \in \ M \]
    Now, we'll show that $ \phi_a \in \ End \ M $\newline
@@ -207,7 +207,7 @@ a similar argument can be used to prove that $r(-x)  = -r x$.
    \newline i.e. $\phi_a \in End \ M$ \newline
    Now, we can define a map (say $f$)
    \begin{align*}
-   &f : R \rightarrowtail End \ M \\ \text{defined as} \\&(a)f \rightarrowtail \phi_a \mathnote{$\forall a \in R$ and $\phi_a \in End \ M$}
+   &f : R \rightarrow End \ M \\ \text{defined as} \\&(a)f \rightarrow \phi_a \mathnote{$\forall a \in R$ and $\phi_a \in End \ M$}
    \end{align*}
 Now, We'll show that $ f $ is a ring homomorphism.\newline
 \begin{description}
@@ -220,7 +220,7 @@ Now, We'll show that $ f $ is a ring homomorphism.\newline
 		  \\  &= \phi_a +\phi_b \\&= (a)f +(b)f
 	\end{align*}
     \item[(B)] \begin{align*}
-    (ab)f &= \phi_{ab}\mathnote{\[ \text{for each}\  x \in M \ \text{we have,}\] \begin{align*} (x)\phi_{ab} &= x(ab)   = (xa)b \\ &= (xa)\phi_b = (x)\phi_a \centerdot\phi_b \\ \therefore \ \phi_{ab} &= \phi_a\centerdot\phi_b \end{align*} } \\  &= \phi_a\centerdot\phi_b \\&= (a)f\ (b)f
+    (ab)f &= \phi_{ab}\mathnote{\[ \text{for each}\  x \in M \ \text{we have,}\] \begin{align*} (x)\phi_{ab} &= x(ab)   = (xa)b \\ &= (xa)\phi_b = (x)\phi_a \circ\phi_b \\ \therefore \ \phi_{ab} &= \phi_a\circ\phi_b \end{align*} } \\  &= \phi_a\circ\phi_b \\&= (a)f\ (b)f
     \end{align*}
 \item[(C)] \begin{align*}
 (1)f\mathnote{\[ \text{for each}\  x \in M \ \text{we have,}\] \begin{align*} (x)\phi_{1} &= x(1) \\&=x \end{align*}\[ \therefore \ \phi_{1} \ \text{is identity of}End \ M \]} &= \phi_{1}
@@ -237,7 +237,7 @@ for any $a \in R$,we denote the $(a)f$ by $f_a \in End \ M$\newline
 \textbf{Claim:} $M$ is a right $R$-module.\newline
 so let's define a map
 \[ R\times M \longrightarrow M \] defined by
-\[ (a , x ) \rightarrowtail x*a = (x)f_a \]
+\[ (a , x ) \rightarrow x*a = (x)f_a \]
 to prove $M$ is a right $R$-module , we need to verify four properties $\eqref{eq1.5}$- $\eqref{eq1.9}$ of right $R$-module.
 \begin{description}
 	\item[(i)]
@@ -251,7 +251,7 @@ to prove $M$ is a right $R$-module , we need to verify four properties $\eqref{e
  \\ &= (x*a) + (x*b)   \end{align*}
  \item{(iii)}
  \begin{align*}
- x*(ab) &= (x)f_{ab} \\ & = (x)f_a\centerdot f_b \\&=(x f_a)f_b \\&= (x*a)*b
+ x*(ab) &= (x)f_{ab} \\ & = (x)f_a\circ f_b \\&=(x f_a)f_b \\&= (x*a)*b
  \end{align*}
  \item{(iv)}
  \[ x*1 = (x)f_1  = x\]\marginnote{\[ \because\ f_1 \text{is identity in} End \ M \]}
@@ -260,7 +260,7 @@ Thus, $ M $ is a right $R$-module.
 \end{proof}
 \begin{definition}[\textbf{Anti-Ring Homomorphism}]
 	Let $R$ and $S$ be two rings with identities $1_r$ and $1_s$ respectively. Define a map $f$
-	\[ f : R \rightarrowtail S \] satisfying following properties, for each $a , b \in R$ \newline
+	\[ f : R \rightarrow S \] satisfying following properties, for each $a , b \in R$ \newline
 	\begin{description}
 		\item[(i)] \[ (a+b)f = (a)f +(b)f \]
 		\item[(ii)] \[ (ab)f  = (b)f\ (a)f \]
@@ -409,12 +409,21 @@ if no proper submodule of $M$ contains $S$ then $S$ generates $M$ (verify ?)
       Let \[P = \left\lbrace \sum\limits_{\alpha \in \Omega } x_\alpha \middle\vert\, x_\alpha \in N_\alpha \quad , \ x_\alpha = 0 \; \textmd{for almost all} \; \alpha\right\rbrace \]
       We need to show that $P$ is smallest submodule of $M$ containing each $N_\alpha$
       \newline  \bigskip
-      \textbf{Claim 1 :}.  \qquad $P$ is submodule of $M$  \newline Clearly, $P$ is non-emptpy. Taking $x_\alpha = 0$ for each $\alpha \in \Omega$, we have \[\Rightarrow0 \in P\] Also, for a fixed but arbitirary $\alpha \in \Omega $ taking \[ x_i = \begin{cases}
+      \textbf{Claim 1 :}.  \qquad $P$ is submodule of $M$  \newline Clearly, $P$ is non-emptpy. Taking $x_\alpha = 0$ for each $\alpha \in \Omega$, we have \[\Rightarrow0 \in P\] Also, for a fixed but arbitirary $\alpha \in \Omega $ \newline Let $x\in N_\alpha$ and  choose \[ x_i = \begin{cases}
                                  x, & \mbox{if } i =\alpha \\
                                  0, & \mbox{otherwise}.
                                \end{cases}\]
-            so $x =\sum x_\alpha \in P$ 
+            so $x =\sum x_i \in P$  we have $N_\alpha \subseteq P \qquad \forall \alpha \in \Omega$ \marginnote{$\because \ \alpha$ was arbitrary chosen}
+      \newline  \bigskip
+      Now , we'll show that $P$ is submodule of $M$ using submodule criterion.\newline
+      \begin{description}
+        \item[\textbf{$P$ is closed under addition}]   Let $u\ , \ v$ be two elements of $P$
+        \[u = \sum_{\alpha} x_\alpha \] \marginnote[-2.5em]{where $x_\alpha \in N_\alpha$ and \newline $x_\alpha = 0$ for almost all $\alpha$}
+        \[v = \sum_{\beta} y_\beta \] \marginnote[-2.5em]{where $y_\beta \in N_\beta$ and \newline $y_\beta = 0$ for almost all $\beta$}
+        \item[\textbf{$P$ is closed under scaler multiplication}]
+      \end{description}
+      \textbf{Claim 2 :}.  \qquad $P$ is smalleat submodule of $M$  \newline
        \end{proof}
-  
-    
+
+
      \end{prop} 
