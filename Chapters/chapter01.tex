@@ -429,29 +429,29 @@ if no proper submodule of $M$ contains $S$ then $S$ generates $M$ (verify ?)
           \text{non-zero}, & \mbox{if } \beta \in \Omega_2 \\
           0, & \mbox{otherwise}.
         \end{cases} \]
-        Also for any arbitirary scaler $c \in R$ , define 
+        Also for any arbitirary scaler $c \in R$ , define
         \[z_r = \begin{cases}
                   x_r, & \mbox{if } r \in \Omega_1 \\
                   c y_r, & \mbox{if } r \in \Omega_2.
-                   
-                   \end{cases} \qquad \Rightarrow z_r = x_r + c y_r \qquad \forall r\ \in \Omega_1 \cap \Omega_2\] 
+
+                   \end{cases} \qquad \Rightarrow z_r = x_r + c y_r \qquad \forall r\ \in \Omega_1 \cap \Omega_2\]
         Now ,  \begin{align*}u + c v & = \sum_{\alpha} x_\alpha + c \sum_{\beta} y_\beta \\ & = \sum_{\alpha \in \Omega_1} x_\alpha + c \sum_{\beta \in \Omega_2} y_\beta \\ & = \sum_{\alpha \in \Omega_1} x_\alpha +  \sum_{\beta \in \Omega_2} c y_\beta \\& = \sum_{r \in \Omega_1} x_r +  \sum_{r \in \Omega_2} c y_r + \sum_{r \in \Omega_1 \cap \Omega_2} (x_r + c y_r)      \\ \text{Thus , We have}\\ u+cv &= \sum_{r \in \Omega_1 \cup \Omega_2} z_r   \in P \mathnote{$z_r = 0 \quad \text{for almost all } r \newline \because \Omega_1 \cup \Omega_2 \text{ is also finite.}$}
         \end{align*}
          \end{description}
-      \textbf{Claim 2 :}.  \qquad $P$ is smalleat submodule of $M$ containing each $N_\alpha$. \newline \bigskip 
+      \textbf{Claim 2 :}.  \qquad $P$ is smalleat submodule of $M$ containing each $N_\alpha$. \newline \bigskip
       Let $N$ be any submodule of $M$ containing each $N_\alpha$ \newline $\therefore \ N$ is closed under addition   so $N$ contains all finite sum of the form $\sum\limits_{\alpha}x_\alpha $  where $ x_\alpha \in N_\alpha \quad \& \quad x_\alpha = 0 \ ,\text{for almost all }\alpha $ \newline  It follows that  $P \subseteq N$     \marginnote{$\because \ N$ was chosen arbitirary}
       \newline \bigskip Thus, $P$ is smallest submodule of $M$ containing each $N_\alpha$ \end{proof}   \end{prop}
-      \bigskip 
+      \bigskip
       \begin{defn}[\textbf{Maximal Submodule}]
       Let $N$ be a submodule of left $R$-module $M$ then $N$ is said to be a maximal submodule of $M$ if there does not exist any proper submodule of $M$.\newline\bigskip
-      In other words , for any sumodule $K$ of $M$ satisfing 
+      In other words , for any sumodule $K$ of $M$ satisfing
       $N\subseteq K \subseteq M$ \newline we must have \[\text{either  } N = K \quad \text{or  } K = M  \] for $N$ to be a maximal submodule of $M$.
       \end{defn}
                    \bigskip
-                   
+
       \begin{thm}
         Let $M$ be a finitely generated left $R$-module then every proper submodule of $M$ is contained in maximal submodule of $M$.\newline In particular , if $M$ is non-trivial then $M$ contains a maximal submodule.
-      \end{thm}             
+      \end{thm}
        \begin{proof}
          Left to Reader.
        \end{proof}
@@ -460,6 +460,7 @@ if no proper submodule of $M$ contains $S$ then $S$ generates $M$ (verify ?)
          $\mathbb{Q} $ is not finitely generated $\mathbb{Z}$-module.
        \end{remark}
        \begin{description}
-         \item[Verification:] Let  $\mathbb{Q} $ is finitely generated over $\mathbb{Z}$ by 
-         \[ \left\lbrace\frac{p_i}{q_i} \ \middle\vert\ p_i , q_i \in \mathbb{Z} \ , \ q_i \neq 0 \quad \forall \ i \in J_n\right\rbrace \]      Without loss of generality , Assume that \[q_1 , q_2 , q_3 , \cdots , q_n > 0\]
-       \end{description}
+         \item[Verification:] Let  $\mathbb{Q} $ is finitely generated over $\mathbb{Z}$ by
+         \[ \left\lbrace\frac{p_i}{q_i} \ \middle\vert\ p_i , q_i \in \mathbb{Z} \ , \ q_i \neq 0 \quad \forall \ i \in J_n\right\rbrace \]      Without loss of generality , Assume that \[q_1 , q_2 , q_3 , \cdots , q_n > 0\] then we can always choose an integer (say $k$) such that
+         \[k = q_1  q_2  q_3  \cdots  q_n > 0 \]
+       \end{description} 
